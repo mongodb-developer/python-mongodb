@@ -78,6 +78,6 @@ item_14 = {"item_name" : "maple syrup",
 }
 
 # Insert all the documents at once
-from pymongo_test_insert import get_database
+from pymongo_get_database import get_database
 dbname = get_database()
 dbname["user_1_items"].insert_many([item_4,item_5,item_6,item_7,item_8,item_9,item_10,item_11,item_12, item_13, item_14])
